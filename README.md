@@ -63,21 +63,19 @@
 ۱۰. فیلتر کردن جستجو بر اساس شهر و استان
 </p>
 
-<p dir='rtl' align='right'> 
- <b>
--کتابخوانه های استفاده شده
- </b>
-</p>
+----------------------------------------------------------------------------------------------------------------------
 
-۱. [calligraphy](https://github.com/chrisjenx/Calligraphy)
+## Open source librarys
 
-۲. [butterknife](https://github.com/JakeWharton/butterknife) 
+1. [calligraphy](https://github.com/chrisjenx/Calligraphy)
 
-۳. [rxjava](https://github.com/ReactiveX/RxJava)
+2. [butterknife](https://github.com/JakeWharton/butterknife) 
 
-۴. [rxandroid](https://github.com/ReactiveX/RxAndroid)
+3. [rxjava](https://github.com/ReactiveX/RxJava)
 
-۵. [retrofit](https://github.com/square/retrofit)
+4. [rxandroid](https://github.com/ReactiveX/RxAndroid)
+
+5. [retrofit](https://github.com/square/retrofit)
 
 6. [glide](https://github.com/bumptech/glide) 
 
