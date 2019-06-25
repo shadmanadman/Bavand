@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_search"
+        android:icon="@drawable/ic_search"
+        android:title="" />
+
+    <item
+        android:id="@+id/navigation_hot_shop"
+        android:icon="@drawable/ic_medal"
+        android:title="" />
+
+    <item
+        android:id="@+id/navigation_home"
+        android:checked="true"
+        android:icon="@drawable/ic_logo"
+        android:title="" />
+
+    <item
+        android:id="@+id/navigation_products"
+        android:icon="@drawable/ic_basketball"
+        android:title="" />
+    <item
+        android:id="@+id/navigation_Category"
+        android:icon="@drawable/ic_compass"
+        android:title="" />
+</menu>

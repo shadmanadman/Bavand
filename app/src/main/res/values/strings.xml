@@ -1,0 +1,108 @@
+<!--  Copyright Bavand Shadman Adman <adman.shadman@gmail.com>
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0 -->
+<resources>
+    <string name="app_name" formatted="true">باوند</string>
+    <string name="category">دسته بندی</string>
+    <string name="newoest">تازه ها</string>
+    <string name="suggestion_bavand">پیشنهاد باوند</string>
+    <string name="hot_category">دسته بندی های داغ</string>
+    <string name="all_category">همه دسته بندها</string>
+    <string name="hot_shop">بهترین ها</string>
+    <string name="search_hint">چی میخوای بخری؟</string>
+    <string name="clear_search_history">حذف همه</string>
+    <string name="empty_search_history">جستجوی قبلی ندارید</string>
+    <string name="search_history">جستجوهای قبلی</string>
+    <string name="search_for_shop">جستجوی فروشگاه و محصولات</string>
+    <string name="search_for" formatted="true">جستجوی برای </string>
+    <string name="select_image">انتخاب تصویر</string>
+    <string name="pic1">تصویر اول</string>
+    <string name="pic2">تصویر دوم</string>
+    <string name="pic3">تصویر سوم</string>
+    <string name="select_pic_note">تصاویر با کیفیت قطعا تاثیر بیشتری خواهند داشت</string>
+    <string name="stars_label">موارد ستاره دار الزامی میباشد</string>
+    <string name="shop_title">عنوان فروشگاه</string>
+    <string name="shop_manager">مدیر فروشگاه</string>
+    <string name="mobile">موبایل</string>
+    <string name="telephone">تلفن</string>
+    <string name="telegram">تلگرام</string>
+    <string name="website">وب سایت</string>
+    <string name="address">آدرس</string>
+    <string name="shop_comment">توضیحات</string>
+    <string name="witch_categories">فروشگاه شما در کدام دسته قرار میگیرد:</string>
+    <string name="place_on_map">مکان بر روی نقشه:</string>
+    <string name="select_shop_place_on_map">لطفا مکان دقیق فروشگاه خود را بر روی نقشه انتخاب کنید:</string>
+    <string name="off_code">کد تحفیف</string>
+    <string name="register_off_code">ثبت کد تحفیف</string>
+    <string name="off_code_note">نکته: ثبت کد تخفیف میتواند مشتریانه بیشتری جذب کند.</string>
+    <string name="phone_order">سفارش تلفنی</string>
+    <string name="phone_order_question">آیا به صورت تلفنی سفارش قبول میکنید؟</string>
+    <string name="yes">بله</string>
+    <string name="select_form_gallery">انتخاب تصویر از گالری</string>
+    <string name="take_a_picture">گرفتن تصویر با دوربین</string>
+    <string name="never_mind">بیخیال</string>
+    <string name="about">درباره</string>
+    <string name="settings">تنظیمات</string>
+    <string name="voice_speech">جستجوی صوتی</string>
+    <string name="chnage_voice_speech_language">تغییر زبان جستجوی صوتی</string>
+    <string name="persian">فارسی</string>
+    <string name="english">انگلیسی</string>
+    <string name="open_source_librarys">کتابخوانه های متن باز</string>
+    <string name="user_interface">کاربری</string>
+    <string name="search_history_preferance">تاریخچه جستجو</string>
+    <string name="delete_search_history_preferance">حذف همه جستوجهای قبلی</string>
+    <string name="search_history_clear">تاریخچه جستجو حذف شد</string>
+
+    <string name="search_recheck_query">دوباره بگرد</string>
+
+    <string name="search_noting_found">متاسفانه برای این جستجو چیزی پیدا نشد!</string>
+
+    <string name="delete">حذف</string>
+    <string name="fragment_title_search">نتایج جستجو برای </string>
+
+    <string name="register_shop">ثبت رایگان فروشگاه</string>
+    <string name="network_onavilable">اوپسس.دستگاه به اینترنت متصل نیست! لطفا دوباره سعی کن</string>
+    <string name="request_faild">متاسفانه مشکلی در برقرای ارتباط با سرور وجود دارد!</string>
+
+    <string name="voicelanguagemodel">free_from</string>
+    <string name="voicelanguage">fa</string>
+
+    <string-array name="Category">
+        <item>نوع دسته بندی</item>
+        <item>کامپیوتر و لوازم اداری</item>
+        <item>لوازم صوتی و تصویری</item>
+        <item>لوازم خانگی</item>
+        <item>موبایل و دوربین</item>
+        <item>ظروف و چینی</item>
+        <item>لوازم آشپزخانه</item>
+        <item>کیف و کفش</item>
+        <item>پوشاک و پارچه</item>
+        <item>آرایشی و بهداشتی</item>
+        <item>لوستر ، نور و روشنایی</item>
+        <item>ابزارآلات و شیرآلات</item>
+        <item>کالای خواب</item>
+        <item>ساعت و بدلیجات</item>
+        <item>اسباب بازی</item>
+        <item>خودرو و لوازم لوکس</item>
+        <item>کالای ورزشی</item>
+        <item>مواد غذایی</item>
+        <item>متفرقه</item>
+    </string-array>
+
+    <string-array name="topCategory">
+        <item>لوازم خانگی</item>
+        <item>لوازم آشپزخانه</item>
+        <item>پوشاک و پارچه</item>
+        <item>آرایشی و بهداشتی</item>
+        <item>لوازم صوتی و تصویری</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_search_result">SearchResultActivity</string>
+
+</resources>

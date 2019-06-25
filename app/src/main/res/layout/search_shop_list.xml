@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?><!--  Copyright Bavand Shadman Adman <adman.shadman@gmail.com>
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0 -->
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardViewSearchShopList"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/activity_margin"
+    android:elevation="@dimen/card_view_ads_elevation"
+    android:layoutDirection="rtl"
+    android:orientation="vertical"
+    app:cardCornerRadius="@dimen/card_view_ads_corners">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageViewShop"
+            android:layout_width="100dp"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewShopTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/activity_margin"
+                android:textColor="@color/colorGray"
+                android:textSize="@dimen/h4" />
+
+            <TextView
+                android:id="@+id/textViewShopCity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/activity_margin"
+                android:textColor="@color/colorGrayLite"
+                android:textSize="@dimen/h5" />
+
+            <org.bavand.custom.TagView
+                android:id="@+id/tagViewCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/activity_margin"></org.bavand.custom.TagView>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

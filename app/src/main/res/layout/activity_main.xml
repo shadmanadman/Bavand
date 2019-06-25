@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?><!--  Copyright Bavand Shadman Adman <adman.shadman@gmail.com>
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:fitsSystemWindows="true"
+    android:layoutDirection="rtl"
+    tools:context=".ui.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/toolbar_height"
+            android:orientation="horizontal"
+            android:paddingRight="@dimen/image_button_padding">
+
+            <TextView
+                android:id="@+id/textViewActive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/image_button_padding"
+                android:layout_weight="1"
+                android:text="@string/app_name"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/h"
+                android:transitionName="logo" />
+
+            <Button
+                android:id="@+id/buttonRegisterShop"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/image_button_padding"
+                android:background="@drawable/corner_background"
+                android:foreground="?attr/selectableItemBackground"
+                android:paddingLeft="@dimen/small_padding"
+                android:paddingRight="@dimen/small_padding"
+                android:text="@string/register_shop"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/h4" />
+
+            <ImageButton
+                android:id="@+id/imageButtonPreference"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/image_button_padding"
+                android:background="@null"
+                android:foreground="?attr/selectableItemBackground"
+                android:padding="@dimen/image_button_padding"
+                android:src="@drawable/ic_gear"
+                android:tint="@color/colorGray" />
+
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/fragmentContianer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+
+        <FrameLayout
+            android:id="@+id/frameLayoutErrorContianer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/image_button_padding" />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/navigation"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/toolbar_height"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
+            android:background="@color/colorWhite"
+            app:barrierAllowsGoneWidgets="true"
+            app:elevation="@dimen/card_view_ads_elevation"
+            app:labelVisibilityMode="unlabeled"
+            app:layout_behavior="@string/hide_bottom_view_on_scroll_behavior"
+            app:menu="@menu/navigation" />
+    </LinearLayout>
+
+</RelativeLayout>

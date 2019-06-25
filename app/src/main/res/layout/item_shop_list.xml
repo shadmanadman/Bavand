@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?><!--  Copyright Bavand Shadman Adman <adman.shadman@gmail.com>
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0 -->
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardViewShop"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/image_button_padding"
+    android:layout_marginRight="@dimen/image_button_padding"
+    android:layout_marginBottom="@dimen/image_button_padding"
+    app:cardCornerRadius="@dimen/card_view_ads_corners">
+
+    <RelativeLayout
+        android:id="@+id/app_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageViewShop"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:scaleType="centerCrop" />
+
+        <RelativeLayout
+            android:id="@+id/shopData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageViewShop"
+            android:padding="4dp">
+
+            <TextView
+                android:id="@+id/textViewShopTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_toStartOf="@+id/shop_menu3dot"
+                android:gravity="center|start"
+                android:maxLines="1"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/h4" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewShopTitle"
+                android:layout_alignStart="@+id/textViewShopTitle"
+                android:layout_toStartOf="@+id/shop_menu3dot"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewShopCity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/h7" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/shop_menu3dot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:background="?android:selectableItemBackgroundBorderless"
+                android:src="@drawable/ic_more_vert_black_24dp" />
+        </RelativeLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

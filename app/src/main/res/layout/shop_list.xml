@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?><!--  Copyright Bavand Shadman Adman <adman.shadman@gmail.com>
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layoutDirection="rtl"
+    android:orientation="vertical"
+    android:padding="@dimen/image_button_padding">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewShop"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:elevation="@dimen/card_view_ads_elevation"
+        app:cardCornerRadius="@dimen/card_view_ads_corners">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageViewShop"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="center" />
+
+                <ImageView
+                    android:id="@+id/imageViewSpacial"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/image_button_padding"
+                    android:background="@drawable/circle_background"
+                    android:padding="@dimen/image_button_padding"
+                    android:src="@drawable/ic_medal"
+                    android:tint="@color/colorYellow" />
+
+                <TextView
+                    android:id="@+id/textViewShopCategory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|left"
+                    android:layout_margin="@dimen/image_button_padding"
+                    android:background="@drawable/background_gradiant"
+                    android:textSize="@dimen/h7" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textViewShopTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/image_button_padding"
+                android:layout_marginEnd="@dimen/activity_margin"
+                android:singleLine="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/h5" />
+
+            <TextView
+                android:id="@+id/textViewShopCity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/activity_margin"
+                android:singleLine="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/h6" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

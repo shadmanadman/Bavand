@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8"?><!--  Copyright Bavand Shadman Adman <adman.shadman@gmail.com>
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:layoutDirection="rtl"
+    android:orientation="vertical"
+    android:textDirection="rtl"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ui.registerShop.RegisterShopActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButtonClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:padding="@dimen/activity_margin"
+            android:src="@drawable/ic_cancel_1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/activity_margin"
+            android:text="@string/register_shop"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/h2" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/image_button_padding"
+                app:cardCornerRadius="@dimen/card_view_ads_corners"
+                app:cardElevation="@dimen/card_view_ads_elevation">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorAccent"
+                    android:elevation="@dimen/card_view_ads_elevation"
+                    android:orientation="vertical"
+                    android:padding="@dimen/fab_margin">
+
+                    <ImageView
+                        android:id="@+id/imageViewAnim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="@dimen/fab_margin"
+                        android:text="@string/select_image"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/fab_margin"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageButton
+                                android:id="@+id/imageButtonPic1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:background="@drawable/rounded_corners"
+                                android:padding="25dp"
+                                android:tint="@color/colorGray"
+                                app:srcCompat="@drawable/ic_picture" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="@string/pic1"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorWhite" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/fab_margin"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageButton
+                                android:id="@+id/imageButtonPic2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:background="@drawable/rounded_corners"
+                                android:padding="25dp"
+                                android:tint="@color/colorGray"
+                                app:srcCompat="@drawable/ic_picture" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="@string/pic2"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorWhite" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/fab_margin"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <ImageButton
+                                android:id="@+id/imageButtonPic3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:background="@drawable/rounded_corners"
+                                android:padding="25dp"
+                                android:tint="@color/colorGray"
+                                app:srcCompat="@drawable/ic_picture" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="@string/pic3"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorWhite" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/select_pic_note"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="@dimen/h6" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/stars_label"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="@dimen/h6" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/fab_margin">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/fab_margin"
+                    android:layout_marginTop="@dimen/fab_margin"
+                    android:layout_marginBottom="@dimen/activity_margin">
+
+                    <EditText
+                        android:id="@+id/editeTextShopTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_margin"
+                        android:layout_marginRight="@dimen/activity_margin"
+                        android:hint="@string/shop_title"
+                        android:textColor="@color/colorGray"
+                        android:textSize="@dimen/h6" />
+                </com.google.android.material.textfield.TextInputLayout>
+                >
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/fab_margin"
+                    android:layout_marginBottom="@dimen/activity_margin">
+
+                    <EditText
+                        android:id="@+id/editeTextShopManager"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_margin"
+                        android:layout_marginRight="@dimen/activity_margin"
+                        android:hint="@string/shop_manager"
+                        android:textColor="@color/colorGray"
+                        android:textSize="@dimen/h6" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/fab_margin"
+                    android:layout_marginBottom="@dimen/activity_margin">
+
+                    <EditText
+                        android:id="@+id/editeTextMobile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_margin"
+                        android:layout_marginRight="@dimen/activity_margin"
+                        android:hint="@string/mobile"
+                        android:inputType="phone"
+                        android:textColor="@color/colorGray"
+                        android:textSize="@dimen/h6" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/fab_margin"
+                    android:layout_marginBottom="@dimen/activity_margin">
+
+                    <EditText
+                        android:id="@+id/editeTextTelephone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_margin"
+                        android:layout_marginRight="@dimen/activity_margin"
+                        android:hint="@string/telephone"
+                        android:inputType="phone"
+                        android:textColor="@color/colorGray"
+                        android:textSize="@dimen/h6" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_margin"
+                    android:layout_marginBottom="@dimen/activity_margin">
+
+                    <EditText
+                        android:id="@+id/editeTextTelegram"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_margin"
+                        android:layout_marginRight="@dimen/activity_margin"
+                        android:hint="@string/telegram"
+                        android:textColor="@color/colorGray"
+                        android:textSize="@dimen/h6" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_margin"
+                    android:layout_marginBottom="@dimen/activity_margin">
+
+                    <EditText
+                        android:id="@+id/editeTextWebSite"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_margin"
+                        android:layout_marginRight="@dimen/activity_margin"
+                        android:hint="@string/website"
+                        android:textColor="@color/colorGray"
+                        android:textSize="@dimen/h6" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/fab_margin"
+                    android:layout_marginBottom="@dimen/activity_margin">
+
+                    <EditText
+                        android:id="@+id/editeTextAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_margin"
+                        android:layout_marginRight="@dimen/activity_margin"
+                        android:hint="@string/address"
+                        android:textColor="@color/colorGray"
+                        android:textSize="@dimen/h6" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_margin"
+                    android:layout_marginBottom="@dimen/activity_margin">
+
+                    <EditText
+                        android:id="@+id/editeTextComment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_margin"
+                        android:layout_marginRight="@dimen/activity_margin"
+                        android:hint="@string/shop_comment"
+                        android:textColor="@color/colorGray"
+                        android:textSize="@dimen/h6" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="@dimen/activity_margin"
+                    android:layout_marginBottom="@dimen/activity_margin"
+                    android:background="@color/colorGrayLiter" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/activity_margin"
+                    android:layout_marginRight="@dimen/image_button_padding"
+                    android:layout_marginBottom="@dimen/activity_margin"
+                    android:text="@string/witch_categories"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/h5" />
+
+                <Spinner
+                    android:id="@+id/spinnerCategories"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_margin"
+                    android:layout_marginRight="@dimen/activity_margin"
+                    android:layout_marginBottom="10dp"
+                    android:entries="@array/Category"
+                    android:prompt="@string/category"
+                    android:spinnerMode="dialog"
+                    android:textDirection="rtl" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="@dimen/activity_margin"
+                    android:layout_marginBottom="@dimen/activity_margin"
+                    android:background="@color/colorGrayLiter" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/fab_margin"
+                    android:layout_marginRight="@dimen/image_button_padding"
+                    android:layout_marginBottom="@dimen/activity_margin"
+                    android:text="@string/place_on_map"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/h5" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/activity_margin"
+                    android:layout_marginBottom="@dimen/activity_margin"
+                    android:text="@string/select_shop_place_on_map"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/h6" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/image_button_padding"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorGreen"
+                    android:textSize="@dimen/h6" />
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="@dimen/activity_margin"
+                    android:layout_marginBottom="@dimen/activity_margin"
+                    android:background="@color/colorGrayLiter" />
+
+                <CheckBox
+                    android:id="@+id/checkbox_simple_product"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="@dimen/h6"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="@dimen/h6"
+                    android:visibility="gone" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="@dimen/fab_margin"
+                    android:layout_marginBottom="@dimen/fab_margin"
+                    android:background="@color/colorGrayLiter"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/activity_margin"
+                    android:layout_marginRight="@dimen/image_button_padding"
+                    android:layout_marginBottom="@dimen/activity_margin"
+                    android:text="@string/off_code"
+                    android:textColor="@color/colorGray"
+                    android:textSize="@dimen/h5" />
+
+                <CheckBox
+                    android:id="@+id/checkboxOffCode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_margin"
+                    android:layout_marginRight="@dimen/activity_margin"
+                    android:layout_marginBottom="@dimen/image_button_padding"
+                    android:text="@string/register_off_code"
+                    android:textSize="@dimen/h6" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/activity_margin"
+                    android:layout_marginBottom="@dimen/image_button_padding"
+                    android:text="@string/off_code_note"
+                    android:textSize="@dimen/h6" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="@dimen/activity_margin"
+                    android:layout_marginBottom="@dimen/activity_margin"
+                    android:background="@color/colorGrayLiter" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/activity_margin"
+                    android:layout_marginRight="@dimen/image_button_padding"
+                    android:layout_marginBottom="@dimen/activity_margin"
+                    android:text="@string/phone_order"
+                    android:textColor="@color/colorGray"
+                    android:textSize="@dimen/h5" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/activity_margin"
+                    android:layout_marginBottom="@dimen/image_button_padding"
+                    android:text="@string/phone_order_question"
+                    android:textColor="@color/colorGray"
+                    android:textSize="@dimen/h6" />
+
+                <CheckBox
+                    android:id="@+id/checkboxOrderByPhone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_margin"
+                    android:layout_marginRight="@dimen/activity_margin"
+                    android:layout_marginBottom="@dimen/image_button_padding"
+                    android:text="@string/yes" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/buttonRegisterShop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorGreen"
+                android:foreground="?attr/selectableItemBackground"
+                android:text="@string/register_shop"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/h3" />
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

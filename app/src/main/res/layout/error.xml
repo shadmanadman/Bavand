@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><!--  Copyright Bavand Shadman Adman <adman.shadman@gmail.com>
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayoutError"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/colorAccentTrensparent"
+    android:gravity="center_vertical"
+    android:layoutDirection="rtl"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/textViewError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_margin"
+        android:layout_weight="1"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/h6" />
+
+    <ImageButton
+        android:id="@+id/imageButtonReload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/activity_margin"
+        android:background="@null"
+        android:padding="@dimen/image_button_padding"
+        android:src="@drawable/ic_reload"
+        android:tint="@color/colorWhite" />
+</LinearLayout>
