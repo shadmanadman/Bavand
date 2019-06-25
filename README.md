@@ -2,7 +2,6 @@
 # باوند - خرید بی واسطه
 </p>
 
-
 ### تصاویر برنامه
 
 <img src="https://github.com/shadmanadman/Bavand/blob/master/screen_captures/device-2019-06-25-165132.png" height="400"><img src="https://github.com/shadmanadman/Bavand/blob/master/screen_captures/device-2019-06-25-165302.png" height="400"> <img src="https://github.com/shadmanadman/Bavand/blob/master/screen_captures/device-2019-06-25-165345.png" height="400"> <img src="https://github.com/shadmanadman/Bavand/blob/master/screen_captures/device-2019-06-25-165432.png" height="400"> <img src="https://github.com/shadmanadman/Bavand/blob/master/screen_captures/device-2019-06-25-165529.png" height="400"><img src="https://github.com/shadmanadman/Bavand/blob/master/screen_captures/device-2019-06-25-165611.png" height="400">
@@ -17,24 +16,30 @@
 <p dir='rtl' align='right'> 
 ۱. امکان مشحص کردن فروشگاه های ویژه
 </p>
-
+<p dir='rtl' align='right'> 
 ۲. امکان رتبه دادن به فروشگاه ها 
+</p>
 <p dir='rtl' align='right'> 
 ۳. نمایش فروشگاه بر روی نقشه
 </p>
-
+<p dir='rtl' align='right'> 
 ۴. نمایش تصویر ۳۶۰ درجه از محیط فروشگاه
+</p>
 <p dir='rtl' align='right'> 
 ۵. نمایش ۱۰ فروشگاه برتر در صفحه اصلی
 </p>
 <p dir='rtl' align='right'> 
 ۶. دسته بندی فروشگاه ها بر اساس نوع انها
 </p>
+<p dir='rtl' align='right'>
 ۷. جداسازی فروشگاه ها بر اساس شهر و استان
+</p>
 <p dir='rtl' align='right'> 
 ۸. نمایش فروشگاه ها بر اساس موقعیت مکانی کاربر 
 </p>
+<p dir='rtl' align='right'> 
 ۹. جستجو بر اساس نوع فروشگاه
+</p>
 <p dir='rtl' align='right'> 
 ۱۰. فیلتر کردن جستجو بر اساس شهر و استان
 </p>
