@@ -1,14 +1,13 @@
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 <p dir='rtl' align='right'> 
--باوند - خرید بی واسطه
-</p>
-<p dir='rtl' align='right'> 
---تصاویر برنامه
+<b>باوند / خرید بی واسطه
+ </b>
 </p>
 
-<img src="https://github.com/shadmanadman/Bavand/blob/master/screen_captures/device-2019-06-25-165132.png" height="400"><img src="https://github.com/shadmanadman/Bavand/blob/master/screen_captures/device-2019-06-25-165302.png" height="400"> <img src="https://github.com/shadmanadman/Bavand/blob/master/screen_captures/device-2019-06-25-165345.png" height="400"> <img src="https://github.com/shadmanadman/Bavand/blob/master/screen_captures/device-2019-06-25-165432.png" height="400"> <img src="https://github.com/shadmanadman/Bavand/blob/master/screen_captures/device-2019-06-25-165529.png" height="400"><img src="https://github.com/shadmanadman/Bavand/blob/master/screen_captures/device-2019-06-25-165611.png" height="400">
-
 <p dir='rtl' align='right'> 
---درباره باوند
+ <b>
+-درباره باوند
+ </b>
 </p>
 
 <p dir='rtl' align='right'> 
@@ -18,9 +17,19 @@
 نکته: برنامه هنوز در حال توسعه است و فعلا نسخه اول تکمیل نشده
 </p>
  
+ <p dir='rtl' align='right'> 
+ <b>
+-تصاویر برنامه
+ </b>
+</p>
+
+<img src="https://github.com/shadmanadman/Bavand/blob/master/screen_captures/device-2019-06-25-165132.png" height="400"><img src="https://github.com/shadmanadman/Bavand/blob/master/screen_captures/device-2019-06-25-165302.png" height="400"> <img src="https://github.com/shadmanadman/Bavand/blob/master/screen_captures/device-2019-06-25-165345.png" height="400"> <img src="https://github.com/shadmanadman/Bavand/blob/master/screen_captures/device-2019-06-25-165432.png" height="400"> <img src="https://github.com/shadmanadman/Bavand/blob/master/screen_captures/device-2019-06-25-165529.png" height="400"><img src="https://github.com/shadmanadman/Bavand/blob/master/screen_captures/device-2019-06-25-165611.png" height="400">
+
 
 <p dir='rtl' align='right'> 
---قابلیت های برنامه
+ <b>
+-قابلیت های برنامه
+ </b>
 </p>
 
 <p dir='rtl' align='right'> 
@@ -53,3 +62,39 @@
 <p dir='rtl' align='right'> 
 ۱۰. فیلتر کردن جستجو بر اساس شهر و استان
 </p>
+
+<p dir='rtl' align='right'> 
+ <b>
+-کتابخوانه های استفاده شده
+ </b>
+</p>
+
+۱. [calligraphy](https://github.com/chrisjenx/Calligraphy)
+
+۲. [butterknife](https://github.com/JakeWharton/butterknife) 
+
+۳. [rxjava](https://github.com/ReactiveX/RxJava)
+
+۴. [rxandroid](https://github.com/ReactiveX/RxAndroid)
+
+۵. [retrofit](https://github.com/square/retrofit)
+
+6. [glide](https://github.com/bumptech/glide) 
+
+
+## LICENSE
+
+    Copyright (c) 2019 Bavand . Shadman Adman <adman.shadman@gmail.com>
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
