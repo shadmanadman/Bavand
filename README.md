@@ -1,4 +1,7 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+# Bavnd
+
 <p dir='rtl' align='right'> 
 <b>باوند / خرید بی واسطه
  </b>
@@ -6,7 +9,7 @@
 
 <p dir='rtl' align='right'> 
  <b>
--درباره باوند
+- درباره باوند
  </b>
 </p>
 
@@ -19,7 +22,7 @@
  
  <p dir='rtl' align='right'> 
  <b>
--تصاویر برنامه
+- تصاویر برنامه
  </b>
 </p>
 
@@ -28,7 +31,7 @@
 
 <p dir='rtl' align='right'> 
  <b>
--قابلیت های برنامه
+- قابلیت های برنامه
  </b>
 </p>
 
