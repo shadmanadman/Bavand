@@ -1,18 +1,28 @@
 <p dir='rtl' align='right'> 
-# باوند - خرید بی واسطه
+-باوند - خرید بی واسطه
 </p>
-
-### تصاویر برنامه
+<p dir='rtl' align='right'> 
+--تصاویر برنامه
+</p>
 
 <img src="https://github.com/shadmanadman/Bavand/blob/master/screen_captures/device-2019-06-25-165132.png" height="400"><img src="https://github.com/shadmanadman/Bavand/blob/master/screen_captures/device-2019-06-25-165302.png" height="400"> <img src="https://github.com/shadmanadman/Bavand/blob/master/screen_captures/device-2019-06-25-165345.png" height="400"> <img src="https://github.com/shadmanadman/Bavand/blob/master/screen_captures/device-2019-06-25-165432.png" height="400"> <img src="https://github.com/shadmanadman/Bavand/blob/master/screen_captures/device-2019-06-25-165529.png" height="400"><img src="https://github.com/shadmanadman/Bavand/blob/master/screen_captures/device-2019-06-25-165611.png" height="400">
 
-### درباره باوند
+<p dir='rtl' align='right'> 
+--درباره باوند
+</p>
+
 <p dir='rtl' align='right'> 
 باوند یک استارتاپ برای خرید بی واسطه از فروشگا های سراسر کشور است. هر فروشگاه میتواند به صورت رایگان مشخصات خود را در اپلیکیشن ثبت نماید. اطلاعات هر فروشگاه که شامل مشخصات فروشگاه / شهر و استان / مکان فروشگاه بر روی نقشه و همچنین یک سری نمونه محصولات به مشتری نمایش داده میشود. همچنین قابلیت ثبت تصویر ۳۶۰ درجه برای هر فروشگاه نیز وجود دارد که به زودی اضافه میشود.
 </p>
-### نکته: برنامه هنوز در حال توسعه است و فعلا نسخه اول تکمیل نشده
+<p dir='rtl' align='right'> 
+نکته: برنامه هنوز در حال توسعه است و فعلا نسخه اول تکمیل نشده
+</p>
+ 
 
-## قابلیت های برنامه
+<p dir='rtl' align='right'> 
+--قابلیت های برنامه
+</p>
+
 <p dir='rtl' align='right'> 
 ۱. امکان مشحص کردن فروشگاه های ویژه
 </p>
