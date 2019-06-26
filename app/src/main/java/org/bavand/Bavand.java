@@ -1,7 +1,7 @@
 package org.bavand;
 
 public class Bavand {
-    public static final String BASE_URL = "http://admanandroid.ir/bavand/";
+    public static final String BASE_URL = "";
     public static final String PUB_PREFIX = "pub:";
     public static final String HISTORY_LIST = "HISTORY_LIST";
 
