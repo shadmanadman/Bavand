@@ -15,7 +15,6 @@ public class NetworkClient {
         if (retrofit == null) {
             OkHttpClient.Builder builder = new OkHttpClient.Builder();
             OkHttpClient okHttpClient = builder.build();
-
             retrofit = new Retrofit.Builder()
                     .baseUrl(Bavand.BASE_URL)
                     .addConverterFactory(GsonConverterFactory.create())

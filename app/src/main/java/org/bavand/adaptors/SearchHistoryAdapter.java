@@ -1,5 +1,6 @@
 package org.bavand.adaptors;
 
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -7,9 +8,11 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import org.bavand.Bavand;
+import org.bavand.BavandApplication;
 import org.bavand.R;
 import org.bavand.helper.Prefs;
 import org.bavand.ui.search.SearchFragment;
+import org.bavand.ui.search.SearchResultActivity;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -77,7 +80,11 @@ public class SearchHistoryAdapter extends RecyclerView.Adapter<SearchHistoryAdap
         holder.date.setText(getDiffString((int) getDiff(mDatedQuery[1])));
         holder.viewForeground.setOnClickListener(v -> {
             final String query = holder.query.getText().toString();
-
+            Intent intent = new Intent(BavandApplication.getInstance().getApplicationContext(), SearchResultActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            intent.putExtra("SearchQuery", query);
+            intent.putExtra("SearchTitle", getTitleString(query));
+            BavandApplication.getInstance().startActivity(intent);
         });
     }
 

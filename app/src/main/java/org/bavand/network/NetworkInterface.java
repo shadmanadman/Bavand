@@ -26,4 +26,7 @@ public interface NetworkInterface {
 
     @GET("search.php")
     Observable<ShopModel> getSearch(@Query("search") String search, @Query("page") String page);
+
+    @GET("get_shop_by_category.php")
+    Observable<ShopModel> getShopByCategory(@Query("id") String id);
 }

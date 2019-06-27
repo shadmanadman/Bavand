@@ -64,6 +64,7 @@ limitations under the License.
     <string name="search_history_preferance">تاریخچه جستجو</string>
     <string name="delete_search_history_preferance">حذف همه جستوجهای قبلی</string>
     <string name="search_history_clear">تاریخچه جستجو حذف شد</string>
+    <string name="explore">کاوش</string>
 
     <string name="search_recheck_query">دوباره بگرد</string>
 

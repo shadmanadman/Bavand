@@ -18,24 +18,40 @@ limitations under the License.
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layoutDirection="rtl"
     tools:context=".ui.search.SearchResultActivity">
 
-    <com.google.android.material.appbar.AppBarLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
+        <LinearLayout
+        android:layout_width="match_parent"
+            android:layout_height="@dimen/toolbar_height"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
 
-    </com.google.android.material.appbar.AppBarLayout>
+            <ImageButton
+                android:id="@+id/imageButtonClose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:padding="@dimen/activity_margin"
+                android:src="@drawable/ic_cancel_1" />
+
+            <TextView
+                android:id="@+id/textViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/activity_margin"
+                android:text="@string/explore"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/h2" />
+        </LinearLayout>
 
     <include layout="@layout/content_search_result" />
-
+    </LinearLayout>
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"
         android:layout_width="wrap_content"

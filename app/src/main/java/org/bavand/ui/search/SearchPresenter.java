@@ -31,7 +31,7 @@ public class SearchPresenter implements SearchPresenterInterface {
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }
-        getObservableSearchResult(textSearch.replaceAll(" ", "%20"), page).subscribeWith(getObserverSearchResult());
+        getObservableSearchResult(searchQuery, page).subscribeWith(getObserverSearchResult());
     }
 
     private Observable<ShopModel> getObservableSearchResult(String searchQuery, String page) {

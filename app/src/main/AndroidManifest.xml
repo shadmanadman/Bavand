@@ -27,7 +27,7 @@
         <activity
             android:name=".ui.search.SearchResultActivity"
             android:label="@string/title_activity_search_result"
-            android:theme="@style/AppTheme" />
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <provider
             android:name=".ui.search.SuggestionProvider"

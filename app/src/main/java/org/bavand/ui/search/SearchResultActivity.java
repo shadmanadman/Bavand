@@ -1,6 +1,6 @@
 package org.bavand.ui.search;
 
-import android.content.Intent;
+import android.content.Context;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.RelativeLayout;
@@ -14,10 +14,10 @@ import org.bavand.helper.Transitions;
 import org.bavand.models.ShopModel;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.RecyclerView;
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
 public class SearchResultActivity extends AppCompatActivity implements SearchViewInterface {
 
@@ -42,19 +42,19 @@ public class SearchResultActivity extends AppCompatActivity implements SearchVie
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search_result);
         Transitions.setupEnterExitWindowAnimations(this);
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
         ButterKnife.bind(this);
-        setupView();
-        getSearchResult(searchQuery, "1");
         setupMVP();
+        setupView();
+
 
     }
 
     private void setupView() {
-        Intent intent = new Intent();
-        searchQuery = intent.getStringExtra("SearchQuery");
-        searchTitle = intent.getStringExtra("SearchTitle");
+        searchQuery = getIntent().getStringExtra("SearchQuery");
+        searchTitle = getIntent().getStringExtra("SearchTitle");
+        getSearchResult(searchQuery, "1");
+        textViewSearchTitle.setText(searchTitle + " " + searchQuery);
+
     }
 
     private void setupMVP() {
@@ -82,5 +82,10 @@ public class SearchResultActivity extends AppCompatActivity implements SearchVie
     @Override
     public void displayError(String s, boolean isShowing) {
 
+    }
+
+    @Override
+    protected void attachBaseContext(Context newBase) {
+        super.attachBaseContext(CalligraphyContextWrapper.wrap(newBase));
     }
 }
