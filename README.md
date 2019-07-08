@@ -26,7 +26,7 @@
  </b>
 </p>
 
-<img src="https://github.com/shadmanadman/Bavand/blob/master/screen_captures/device-2019-06-25-165132.png" height="400"><img src="https://github.com/shadmanadman/Bavand/blob/master/screen_captures/device-2019-06-25-165302.png" height="400"> <img src="https://github.com/shadmanadman/Bavand/blob/master/screen_captures/device-2019-06-25-165345.png" height="400"> <img src="https://github.com/shadmanadman/Bavand/blob/master/screen_captures/device-2019-06-25-165432.png" height="400"> <img src="https://github.com/shadmanadman/Bavand/blob/master/screen_captures/device-2019-06-25-165529.png" height="400"><img src="https://github.com/shadmanadman/Bavand/blob/master/screen_captures/device-2019-06-25-165611.png" height="400">
+<img src="https://github.com/shadmanadman/Bavand/blob/master/screen_captures/device-2019-06-25-165132.png" height="400"><img src="https://github.com/shadmanadman/Bavand/blob/master/screen_captures/device-2019-06-25-165302.png" height="400"> <img src="https://github.com/shadmanadman/Bavand/blob/master/screen_captures/device-2019-06-25-165345.png" height="400"> <img src="https://github.com/shadmanadman/Bavand/blob/master/screen_captures/device-2019-06-25-165432.png" height="400"> <img src="https://github.com/shadmanadman/Bavand/blob/master/screen_captures/device-2019-06-25-165529.png" height="400"><img src="https://github.com/shadmanadman/Bavand/blob/master/screen_captures/device-2019-06-25-165611.png" height="400"><img src="https://github.com/shadmanadman/Bavand/blob/master/screen_captures/8.png" height="400"><img src="https://github.com/shadmanadman/Bavand/blob/master/screen_captures/9" height="400">
 
 
 <p dir='rtl' align='right'> 
